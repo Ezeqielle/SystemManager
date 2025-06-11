@@ -39,7 +39,7 @@ SystemManager is a software in GO working with an agent and a root server. With 
 | ![Fedora](https://img.shields.io/badge/Fedora-294172?style=flat&logo=fedora&logoColor=white) | :heavy_multiplication_x: |
 
 ## TODO
-
+### Agent
 - [x] Update packages
 - [x] Detecte installed packages
   - [x] Current version installed
@@ -76,10 +76,17 @@ SystemManager is a software in GO working with an agent and a root server. With 
 - [x] CLI
   - [x] Run agent commands
 
+### Web UI
 - [ ] API
   - [ ] send data to root server
   - [ ] Get data from root server
 
-- [x] Create a self-hosted apt repo with credentials
+- [ ] Create a self-hosted apt repo with credentials
 - [ ] Add a tag system to the agent
   - [ ] Can be used for IAC inventory
+     
+- [ ] Logging system
+  - [ ] db trigger to log policies activation
+  - [ ] export archived log
+  - [ ] tools to import archived log to investigate them
+    - [ ] create new temporary table to read uploaded archived log
