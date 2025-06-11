@@ -87,6 +87,7 @@ SystemManager is a software in GO working with an agent and a root server. With 
      
 - [ ] Logging system
   - [ ] db trigger to log policies activation
+  - [ ] Notification system that work with teams, slack, discord
   - [ ] export archived log
   - [ ] tools to import archived log to investigate them
     - [ ] create new temporary table to read uploaded archived log
